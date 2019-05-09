@@ -1,0 +1,8 @@
+.table-sm td{
+    padding-top: 2px;
+    padding-bottom: 2px; 
+}
+
+.table.font-14 td{font-size: 14px !important}
+.table.font-12 td{font-size: 12px !important}
+.table.font-10 td{font-size: 10px !important}
