@@ -7,7 +7,6 @@
 
 /* Modal Side */
 .modal-side-scroll{
-    overflow-x: auto; 
     position: relative;
 }
 @media (min-width: 768px){
