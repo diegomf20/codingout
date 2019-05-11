@@ -5,4 +5,67 @@
 .table.font-12 td{font-size: 12px !important}
 .table.font-10 td{font-size: 10px !important}
 
-/* Modal lateral */
+/* Modal Side */
+@keyframes open{
+    0%{
+        transform: translate(350px);
+    }
+    100%{
+        transform: translate(0);
+    }
+}
+
+@keyframes close{
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(350px);
+    }
+}
+
+
+.modal-side{
+    display: none;
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: -352px;
+    bottom: 0px;
+    background-color: #fff;
+    overflow-y: auto;
+    opacity: 1;
+    transition: all 0.7s ease-out;
+    border:1px solid rgba(0, 0, 0, 0.2)
+}
+@media (min-width: 768px){
+    .modal-side{
+        position: absolute;
+        width: 350px;
+    }
+}
+.modal-side.open{
+    right: 0;
+    display: block;
+}
+.modal-side [close]{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 20px;
+    cursor: pointer;        
+    font-weight: 700;
+    color: #000;
+}
+.modal-side .header{
+    position: relative;
+    padding: 20px;
+    padding-bottom: 10px;
+    min-height:50px; 
+}
+.modal-side .body{
+    position: relative;
+    overflow: auto;
+    padding: 20px;
+}

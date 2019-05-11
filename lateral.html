@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Modal-side</title>
+    <link rel="stylesheet" href="coding.css">
+</head>
+<body>
+    <button side-open="modal-side">Modal</button>
+    <style>
+        .content{
+            position: relative;
+            width: 500px;
+            height: 300px;
+            overflow: hidden;
+        }
+    </style>
+    <div class="content">
+        <div id="modal-side" class="modal-side">
+            <div class="modal-side-content">
+                <div class="header">
+                    Detalles de Eventos
+                    <a close>X</a>
+                </div>
+                <div class="body">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="coding.js"></script>
+</body>
+</html>
