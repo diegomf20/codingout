@@ -38,9 +38,9 @@
     top: 0;
     right: -352px;
     bottom: 0px;
+    width: 350px;
     background-color: #fff;
     overflow-y: auto;
-    opacity: 1;
     border:1px solid rgba(0, 0, 0, 0.2);
     -webkit-transition: all 0.7s ease-out;
        -moz-transition: all 0.7s ease-out;
@@ -51,16 +51,14 @@
 .modal-side.open{
     right: 0;
     width: 100%;
-    position: fixed;
 }
 @media (min-width: 768px){
     .modal-side{
         position: absolute;
-        width: 350px;
+        
     }
     .modal-side.open{
         width: 350px;        
-        position: absolute;
     }
 }
 
