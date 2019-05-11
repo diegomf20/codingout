@@ -6,32 +6,14 @@
 .table.font-10 td{font-size: 10px !important}
 
 /* Modal Side */
-.modal-side-scroll{
-    position: relative;
-}
+.modal-side-scroll{position: relative}
 @media (min-width: 768px){
-    .modal-side-scroll{
-        overflow-x: hidden;
-    }
+    .modal-side-scroll{overflow-x: hidden}
 }
 
-.modal-side [close]{
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    font-size: 20px;
-    cursor: pointer;        
-    font-weight: 700;
-    color: #000;
-}
-.modal-side .header{
-    padding: 20px;
-    padding-bottom: 10px;
-    min-height:50px; 
-}
-.modal-side .body{
-    padding: 20px;
-}
+.modal-side [close]{position: absolute;top: 10px;right: 20px;font-size: 20px;cursor: pointer;font-weight: 700;color: #000}
+.modal-side .body{padding: 20px}
+.modal-side .header{padding: 20px;padding-bottom: 10px;min-height:50px}
 .modal-side{
     z-index: 10;
     position: fixed;
@@ -48,17 +30,9 @@
          -o-transition: all 0.7s ease-out;
             transition: all 0.7s ease-out;
 }
-.modal-side.open{
-    right: 0;
-    width: 100%;
-}
+.modal-side.open{right: 0;width: 100%}
 @media (min-width: 768px){
-    .modal-side{
-        position: absolute;
-        
-    }
-    .modal-side.open{
-        width: 350px;        
-    }
+    .modal-side{position: absolute}
+    .modal-side.open{width: 350px}
 }
 
