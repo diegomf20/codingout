@@ -28,7 +28,7 @@
     padding: 20px;
 }
 .modal-side{
-    z-index: 0;
+    z-index: 10;
     position: fixed;
     top: 0;
     right: -352px;
