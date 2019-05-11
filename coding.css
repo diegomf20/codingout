@@ -8,6 +8,7 @@
 /* Modal Side */
 .modal-side-scroll{
     overflow-x: hidden; 
+    position: relative;
 }
 .modal-side [close]{
     position: absolute;
