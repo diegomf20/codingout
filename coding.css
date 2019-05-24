@@ -16,7 +16,7 @@
     top: 0;
     right: -352px;
     bottom: 0px;
-    width: 350px;
+    width: 380px;
     background-color: #fff;
     overflow-y: auto;
     border:1px solid rgba(0, 0, 0, 0.2);
@@ -29,7 +29,7 @@
 .modal-side.open{right: 0;width: 100%}
 @media (min-width: 768px){
     .modal-side{position: absolute}
-    .modal-side.open{width: 350px}
+    .modal-side.open{width: 380px}
     .modal-side-scroll{overflow-x: hidden}
 }
 
