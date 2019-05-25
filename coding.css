@@ -33,3 +33,11 @@
     .modal-side-scroll{overflow-x: hidden}
 }
 
+.content-side{position: relative;height: 100%;overflow: hidden}
+.content-side .body{top: 60px;left: 0;right: 0;bottom: 0;position: absolute}
+
+/**
+* Comprimidos de Tablas
+*/
+
+.td-line{white-space: nowrap !important}
