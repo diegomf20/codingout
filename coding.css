@@ -34,7 +34,7 @@
 }
 
 .content-side{position: relative;height: 100%;overflow: hidden}
-.content-side .body{top: 60px;left: 0;right: 0;bottom: 0;position: absolute}
+.content-side .body{top: 60px;left: 0;right: 0;bottom: 0;position: absolute;overflow: auto}
 
 /**
 * Comprimidos de Tablas
